@@ -4,7 +4,6 @@ import json
 
 CSV_FILE = "udemy_courses.csv"
 
-# Definisanje potrošača
 consumer = KafkaConsumer(
     "test",
     bootstrap_servers='localhost:9092',
